@@ -1,4 +1,4 @@
-class Rectangle {
+export class Rectangle {
     length: number;
     breath: number;
     area(l: number, b: number): number {
@@ -8,8 +8,5 @@ class Rectangle {
     }
 }
 
-let r = new Rectangle();
-
-console.log('The area of rectangle: ' + r.area(3, 4));
 
 
